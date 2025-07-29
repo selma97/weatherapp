@@ -1,30 +1,43 @@
-# Weather App ☀️🌧️
+# 🌦️ Weather App
 
-A simple and modern weather app built with React and TypeScript using the OpenWeather API.
+A simple and modern weather app built with **React**, **TypeScript**, and the **OpenWeather API**.  
+Supports location-based weather, city search, forecast switching (3 or 5 days), and theme toggling.
 
-## 🔧 Technologies
+---
 
-- React (Vite)
-- TypeScript
-- Shadcn
-- Tailwind CSS
-- React Query
-- React Router
-- OpenWeather API
+## 🚀 Features
 
-## 🌟 Features
+- 📍 Detects and displays weather for your current location (via Geolocation API)
+- 🔎 Search for any city worldwide
+- 🌤️ Choose between 3-day and 5-day weather forecast
+- ⭐ Add/remove favorite cities (saved in localStorage)
+- 🌙 Light/Dark theme toggle
+- 📱 Fully responsive (mobile & desktop)
 
-- 📍 Detects and displays weather for your current location (via geolocation)
-- 🔎 Search for cities
-- 🌤️ View 3-day or 5-day weather forecast
-- ⭐ Add and remove favorite cities (stored in localStorage)
-- 🌙 Toggle between light and dark theme
-- 📦 Fully responsive and optimized for all devices
+---
 
-## 🚀 Getting Started
+## 🛠️ Tech Stack
 
-- Clone the repository:
+- ⚛️ **React** (Vite)
+- 🟦 **TypeScript**
+- 🎨 **Tailwind CSS**
+- 🧱 **ShadCN UI**
+- 📡 **React Query**
+- 🌐 **React Router**
+- ☁️ **OpenWeatherMap API**
 
+---
+
+## 🧑‍💻 Getting Started
+
+```bash
+# 1. Clone the repository
 git clone https://github.com/your-username/weatherapp.git
 cd weatherapp
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
 npm run dev
+
